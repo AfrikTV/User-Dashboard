@@ -1,0 +1,46 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #000000;
+    margin: 0px;
+    color: #ffffff;
+}
+
+
+/* HEADER STYLE */
+
+.main-header {
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    border-right: 0.5px solid #CCCCCC;
+}
+
+.header-icons {
+    display: block;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+/* REST OF THE BODY */
+
+section.main-body {
+    position: fixed;
+    margin-left: 101px;
+}
+
+.selected-movie-descp {
+    margin-top: -16px;
+    background: url(../images/movie-bg.svg) no-repeat;
+    background-size: cover;
+    min-width: 420px;
+}
+
+.smd-box {
+    background: linear-gradient(90.58deg, #000000 36.54%, rgba(0, 0, 0, 0) 91.99%);
+    padding: 100px 0px 70px 50px;
+}
